@@ -14,5 +14,6 @@ Note : Please Follow the below guidelines to create task folders
 |1|         |         |
 |2|         |         |
 |3|         |         |
-|4|         |         |
-|5|Political Rationale| The entire basis of the political rationale is to create a document upon which we could use as a basis to know if the direction of our current application is viable or not|
+|4|   Time Series Analysis      |         |
+|5|Political Rationale| The entire basis of the political rationale is to create a document upon which we could use as a basis to know if the direction of our current application is viable or not|                  
+|6|    Vegetation Indices Analysis     |         |
