@@ -1,0 +1,384 @@
+var geometry = ee.FeatureCollection("users/saivilliers/Iraq"),
+    agriculture = 
+    /* color: #98ff00 */
+    /* shown: false */
+    ee.FeatureCollection(
+        [ee.Feature(
+            ee.Geometry.Point([43.705299125305, 34.6690924347762]),
+            {
+              "system:index": "0"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.9675729682874, 35.369778999108]),
+            {
+              "system:index": "1"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([42.37201376760582, 36.125616571354776]),
+            {
+              "system:index": "2"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([41.91608115041832, 36.147798303741105]),
+            {
+              "system:index": "3"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([42.28961630666832, 36.783934995082724]),
+            {
+              "system:index": "4"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.45966025198082, 36.63861498865965]),
+            {
+              "system:index": "5"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([42.08636923635582, 35.97461459635749]),
+            {
+              "system:index": "6"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([42.86090536916832, 36.28075694586222]),
+            {
+              "system:index": "7"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.79474325979332, 35.79659471245346]),
+            {
+              "system:index": "8"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.591846365947085, 34.31086194784206]),
+            {
+              "system:index": "9"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([42.625049490947085, 35.97275802004227]),
+            {
+              "system:index": "10"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.926929373759585, 36.38511425343949]),
+            {
+              "system:index": "11"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.564380545634585, 35.6654164937783]),
+            {
+              "system:index": "12"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([44.503711600322085, 34.97068753335999]),
+            {
+              "system:index": "13"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([44.262012381572085, 35.21339931015704]),
+            {
+              "system:index": "14"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([44.80763210849748, 34.87802950640269]),
+            {
+              "system:index": "15"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.19332851963029, 35.71584012159442]),
+            {
+              "system:index": "16"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([41.34625210361467, 36.14395905508636]),
+            {
+              "system:index": "17"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([42.14549094024006, 36.63574770657815]),
+            {
+              "system:index": "18"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.426331681570765, 36.21674222927718]),
+            {
+              "system:index": "19"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.93598138312878, 34.127607399649435]),
+            {
+              "system:index": "20"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.832206380185845, 34.06793543070394]),
+            {
+              "system:index": "21"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([44.15922658215492, 33.56676708694742]),
+            {
+              "system:index": "22"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([44.34779202147952, 33.732992293202955]),
+            {
+              "system:index": "23"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.267017461012834, 35.17948214416403]),
+            {
+              "system:index": "24"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.23317924004694, 36.19370168479278]),
+            {
+              "system:index": "25"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.24894898342883, 35.549829771919924]),
+            {
+              "system:index": "26"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.80633347439563, 34.806055273705454]),
+            {
+              "system:index": "27"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.04827683377063, 36.627793237266516]),
+            {
+              "system:index": "28"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([42.648649148223754, 36.5263329309296]),
+            {
+              "system:index": "29"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([44.22916098571778, 35.70114763051298]),
+            {
+              "system:index": "30"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.700440844393704, 35.26876652406219]),
+            {
+              "system:index": "31"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([42.87148805508706, 36.558757830171146]),
+            {
+              "system:index": "32"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.96170946011636, 35.925914274215955]),
+            {
+              "system:index": "33"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([41.64904163922338, 36.10753527751942]),
+            {
+              "system:index": "34"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([42.36927805367543, 36.04560084887883]),
+            {
+              "system:index": "35"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.34027808380398, 35.9276892125427]),
+            {
+              "system:index": "36"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.56548965730557, 36.186826105550075]),
+            {
+              "system:index": "37"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.39371218588241, 36.01993836543495]),
+            {
+              "system:index": "38"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.28173668467651, 36.13481849861152]),
+            {
+              "system:index": "39"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.26173787879806, 35.66800451534188]),
+            {
+              "system:index": "40"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.23920732307296, 35.64192136821433]),
+            {
+              "system:index": "41"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([42.661946814374765, 36.41192155466455]),
+            {
+              "system:index": "42"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.293832557487036, 35.6105248046823]),
+            {
+              "system:index": "43"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([42.761444372752194, 36.50667980781162]),
+            {
+              "system:index": "44"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([42.84617223006844, 36.49781845851682]),
+            {
+              "system:index": "45"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.40918093578852, 35.17674928279474]),
+            {
+              "system:index": "46"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.423772152829535, 35.17555661897394]),
+            {
+              "system:index": "47"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.56068292165858, 34.85640302733037]),
+            {
+              "system:index": "48"
+            }),
+        ee.Feature(
+            ee.Geometry.Point([43.533314760011194, 36.14655780473862]),
+            {
+              "system:index": "49"
+            })]);
+           Map.centerObject(geometry, 7);
+
+var dataset = ee.ImageCollection("ESA/WorldCover/v100").first().clip(geometry);
+
+var visualization = {
+  bands: ['Map'],
+};
+
+Map.centerObject(dataset);
+
+Map.addLayer(dataset.clip(geometry), visualization, "Landcover");
+
+var scaleMOD = function(img) {
+        return  img
+          .divide(10000)
+          .float() 
+          .set("system:time_start", img.get("system:time_start")); 
+};
+
+
+
+var modis = ee.ImageCollection("MODIS/006/MOD13Q1")
+            .map(scaleMOD)
+            .filterBounds(geometry)
+            .select('NDVI');
+
+var startyear = 2000; 
+var endyear = 2021;
+print ('no of years in study period', endyear - startyear + 1);
+var startmonth = 4; 
+var endmonth = 5; 
+print ('no of months in study period', endmonth - startmonth + 1);
+var startdate = ee.Date.fromYMD(startyear, startmonth, 1);
+var enddate = ee.Date.fromYMD(endyear , endmonth, 30);
+var years = ee.List.sequence(startyear, endyear);
+var months = ee.List.sequence(startmonth,endmonth);
+
+
+var modis_list = [];
+for(var i = startmonth; i <=endmonth; i++) {
+  for(var j = startyear; j <=endyear; j++){
+    modis_list.push(modis.filter(ee.Filter.calendarRange(i, i, 'month'))
+                          .filter(ee.Filter.calendarRange(j, j, 'year')));
+  }
+}
+print(modis_list);
+var modis_filtered_flattened = ee.ImageCollection(ee.FeatureCollection(modis_list).flatten());
+
+// NDVI composites for every month
+var monthlyNDVI =  ee.ImageCollection.fromImages(
+  years.map(function (y) { 
+    return months.map(function(m) {
+      var monthly = modis_filtered_flattened
+        .filter(ee.Filter.calendarRange(y, y, "year"))
+        .filter(ee.Filter.calendarRange(m, m, "month"))
+        .mean(); 
+      return monthly
+        .set("year", y) 
+        .set("month", m) 
+        .set("system:time_start", ee.Date.fromYMD(y, m, 1).millis());}); })
+  .flatten());
+// print (monthlyNDVI, 'monthly NDVI composites in study period = no of months * no of years')
+Map.addLayer (monthlyNDVI.first().clip(geometry),  {min:0, max:1,  'palette': ['red','yellow', 'green']}, 'MonthlyNDVI')
+
+// Extract max values for each month over all years
+var MonthlyMAX =  ee.ImageCollection.fromImages(months
+  .map(function (m) {
+    var maxNDVI = monthlyNDVI
+      .filter(ee.Filter.eq("month", m))
+      .select("NDVI")
+      .reduce(ee.Reducer.max())
+      .rename("max_NDVI");
+  return maxNDVI
+    .set("month", m);})
+  .flatten());
+// print (MonthlyMAX, 'MonthlyMAX no of images = no of months in study period');
+Map.addLayer (MonthlyMAX.first().select('max_NDVI').clip(geometry),  {min:0, max:1,  'palette': ['red','yellow', 'green']}, 'MonthlyMAX')
+
+// Extract min values for each month over all years
+var MonthlyMIN =  ee.ImageCollection.fromImages(months
+  .map(function (m) {
+    var minNDVI = monthlyNDVI
+      .filter(ee.Filter.eq("month", m))
+      .select("NDVI")
+      .reduce(ee.Reducer.min())
+      .rename("min_NDVI");
+  return minNDVI
+    .set("month", m);})
+  .flatten());
+// print (MonthlyMIN, 'MonthlyMIN  no of images = no of months in study period');
+Map.addLayer (MonthlyMIN.first().select('min_NDVI').clip(geometry), {min:0, max:1,  'palette': ['red','yellow', 'green']}, 'MonthlyMIN')
+
+
+// Extract VCI for each month over all years
+var vci_monthly = monthlyNDVI.map(function(img){
+ var id = img.id();
+ var min =  img.reduceRegion(ee.Reducer.min(), geometry,250).get('NDVI');
+ var max = img.reduceRegion(ee.Reducer.max(), geometry,250).get('NDVI');
+ return img.expression(
+   "((NDVI-min)/(max-min))*100",{
+     "NDVI" : img,
+     "max" : ee.Number(max),
+     "min" : ee.Number(min)
+   }).copyProperties(img,['system:time_start','system:time_end']);
+});
+
+// print(vci_monthly)
+// print (vci_monthly, 'vci_monthly composites in study period = no of months * no of years')
+Map.addLayer (vci_monthly.first().clip(geometry),  {min:-100, max:100,  'palette': ['red','yellow', 'green']}, 'vci_monthly')
+
+var triplets = vci_monthly.map(function(image) {
+  var withStats = image.reduceRegions({
+  collection: agriculture,
+  reducer: ee.Reducer.sum().setOutputs(['vci']),
+  scale: 250
+  }).map(function(feature) {
+    return feature.set('imageId', image.id())
+  })
+  return withStats
+}).flatten()
+
+print(triplets.first())
+
+Export.table.toDrive({
+  collection: triplets,
+  description: 'tripletss',
+  fileFormat: 'CSV'}) 
+            
+            
